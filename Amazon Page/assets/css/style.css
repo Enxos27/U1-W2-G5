@@ -1,0 +1,115 @@
+/* Your styles here */
+
+/* Imposto colori pagina */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+header,
+footer {
+  background-color: #222f3f;
+}
+nav {
+  background-color: #364759;
+}
+
+/* Imposto lo stile dell header */
+header img {
+  width: 10%;
+  padding: 10px 0px 10px 30px;
+}
+ul {
+  background-color: #364759;
+  padding-top: 0px;
+}
+ul li {
+  display: inline-block;
+  color: white;
+}
+
+li {
+  padding: 10px 20px 10px 20px;
+}
+
+/* Imposto lo stile della parte centrale della pagina */
+main p:first-child {
+  background-color: #f56600;
+  text-align: center;
+  margin: 30px 30px 30px;
+  padding: 0.8vw;
+  color: white;
+}
+
+#Gift-guides {
+  background-image: url(../images/bg-image.png);
+  background-position: center;
+  text-align: center;
+  color: white;
+  height: 21vh;
+
+  padding-top: 7vh;
+  margin: 0px 30px;
+  box-sizing: border-box;
+}
+#Gift-guides p {
+  margin-top: 30px;
+  font-size: larger;
+}
+
+#Line-picture {
+  text-align: left;
+  margin: 25px 30px 25px;
+  background-color: white;
+}
+.immagine {
+  display: inline-block;
+  width: 380px;
+  border-radius: 40px;
+  height: 400px;
+  margin: 25px;
+}
+#Line-picture h3 {
+  font-weight: 550;
+  padding: 20px 0px 0px 20px;
+}
+
+.tasto-blu {
+  color: #206677;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: large;
+}
+
+.img-center {
+  margin: 25px 30px 25px;
+  width: 97%;
+  margin-bottom: 0px;
+}
+
+.txt-center {
+  text-align: center;
+  font-weight: 550;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+/* Imposto lo stile del footer di pagina */
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  padding: 10px 20px 10px 20px;
+  color: white;
+}
+
+footer img {
+  padding: 50px;
+  width: 12%;
+}
+
+footer nav {
+  padding: 20px;
+}
